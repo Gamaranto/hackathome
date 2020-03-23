@@ -94,7 +94,7 @@ class FeaturesTiles extends React.Component {
                     <h4 className="mt-0 mb-8">Per una giusta causa</h4>
                     <p className="m-0 text-sm">
                       Mentre programmi, raccoglieremo fondi da donare in
-                      beneficenza agli ospedali Lombardi.
+                      beneficenza agli ospedali lombardi.
                     </p>
                   </div>
                 </div>
