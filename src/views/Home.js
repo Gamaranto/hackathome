@@ -3,7 +3,7 @@ import React from "react";
 import SectionHeader from "../components/sections/partials/SectionHeader";
 // import sections
 import HeroSplit from "../components/sections/HeroSplit";
-import FAQ from "../components/sections/FAQ";
+import Cta from "../components/sections/Cta";
 import GenericSection from "../components/sections/GenericSection";
 import FeaturesTiles from "../components/sections/FeaturesTiles";
 
