@@ -123,7 +123,6 @@ class Header extends React.Component {
                         navPosition && `header-nav-${navPosition}`
                       )}
                     ></ul>
-                    }
                   </div>
                 </nav>
               </React.Fragment>
