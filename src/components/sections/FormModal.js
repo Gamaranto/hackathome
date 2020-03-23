@@ -18,7 +18,7 @@ export default function FormModal() {
           aria-controls="demo-modal"
           onClick={() => setModal(true)}
         >
-          Open modal
+          Iscrivimi!
         </Button>
       </div>
       <Modal

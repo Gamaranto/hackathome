@@ -25,15 +25,15 @@ class Home extends React.Component {
 
   render() {
     const genericSection01Header = {
-      title: "Built exclusively for you",
+      title: "Convinto?",
       paragraph:
-        "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint — occaecat cupidatat non proident, sunt in culpa qui."
+        "Pensi di poter aiutare in qualche modo ma non sai come? Scrivici a ciao@hackatho.me"
     };
 
     return (
       <>
         <HeroSplit className="illustration-section-01" />
-        <GenericSection topDivider className="center-content">
+        <GenericSection className="center-content">
           <FeaturesTiles topDivider className="center-content" />
           <SectionHeader
             data={genericSection01Header}
@@ -41,8 +41,6 @@ class Home extends React.Component {
           />
           <FormModal />
         </GenericSection>
-
-        <FAQ />
       </>
     );
   }

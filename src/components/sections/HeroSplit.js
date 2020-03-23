@@ -74,8 +74,9 @@ class HeroSplit extends React.Component {
                     className="mt-0 mb-32 reveal-from-bottom"
                     data-reveal-delay="300"
                   >
-                    Hack@Home è un hackthon di due giorni dove costruire
-                    prodotti utili durante l'emergenza COVID. Da casa tua.
+                    Hack@Home è un hackthon di due giorni dove mettere a
+                    disposizione le tue doti di creativo o scienziato durante
+                    l'emergenza COVID. Direttamente da casa tua.
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
                     <Button
