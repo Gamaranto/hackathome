@@ -1,7 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
 import classNames from "classnames";
-import { Link } from "react-router-dom";
 import Logo from "./partials/Logo";
 
 const propTypes = {
@@ -97,36 +96,6 @@ class Header extends React.Component {
             )}
           >
             <Logo />
-            {!hideNav && (
-              <React.Fragment>
-                <button
-                  ref={this.hamburger}
-                  className="header-nav-toggle"
-                  onClick={this.state.isActive ? this.closeMenu : this.openMenu}
-                >
-                  <span className="screen-reader">Menu</span>
-                  <span className="hamburger">
-                    <span className="hamburger-inner"></span>
-                  </span>
-                </button>
-                <nav
-                  ref={this.nav}
-                  className={classNames(
-                    "header-nav",
-                    this.state.isActive && "is-active"
-                  )}
-                >
-                  <div className="header-nav-inner">
-                    <ul
-                      className={classNames(
-                        "list-reset text-xxs",
-                        navPosition && `header-nav-${navPosition}`
-                      )}
-                    ></ul>
-                  </div>
-                </nav>
-              </React.Fragment>
-            )}
           </div>
         </div>
       </header>

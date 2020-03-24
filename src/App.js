@@ -9,10 +9,18 @@ import LayoutDefault from "./layouts/LayoutDefault";
 // Views
 import Home from "./views/Home";
 
+//GA stuff
+
+import { initGA, pageView } from "./tracking";
+
+let trackingId = "UA-161781298-1";
+
 class App extends React.Component {
   componentDidMount() {
     document.body.classList.add("is-loaded");
     this.refs.scrollReveal.init();
+    initGA(trackingId);
+    pageView();
   }
 
   // Route change
