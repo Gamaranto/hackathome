@@ -4,6 +4,7 @@ import SectionHeader from "../components/sections/partials/SectionHeader";
 // import sections
 import HeroSplit from "../components/sections/HeroSplit";
 //import Cta from "../components/sections/Cta";
+import FAQ from "../components/sections/FAQ";
 import GenericSection from "../components/sections/GenericSection";
 import FeaturesTiles from "../components/sections/FeaturesTiles";
 
@@ -25,9 +26,8 @@ class Home extends React.Component {
 
   render() {
     const genericSection01Header = {
-      title: "Convinto?",
-      paragraph:
-        "Pensi di poter aiutare in qualche modo ma non sai come? Scrivici a ciao@hackatho.me"
+      title: "Convito?",
+      paragraph: "Unisciti a noi e crea cose meravigliose."
     };
 
     return (
@@ -35,10 +35,16 @@ class Home extends React.Component {
         <HeroSplit className="illustration-section-01" />
         <GenericSection className="center-content">
           <FeaturesTiles topDivider className="center-content" />
+
+          <FAQ />
+        </GenericSection>
+
+        <GenericSection className="center-content">
           <SectionHeader
             data={genericSection01Header}
             className="reveal-from-bottom"
           />
+
           <FormModal />
         </GenericSection>
       </>

@@ -18,7 +18,7 @@ export default function FormModal() {
             setModal(true);
           }}
         >
-          Iscrivimi!
+          Conta su di me
         </Button>
       </div>
       <Modal
