@@ -1,22 +1,22 @@
 import React, { useState } from "react";
 
-import SectionHeader from "./partials/SectionHeader";
 import Modal from "../elements/Modal";
 import Button from "../elements/Button";
 import TypeForm from "./Typeform";
 
 export default function FormModal() {
   let [modalActive, setModal] = useState(false);
-  const genericSection03Header = {
-    title: "Modal - Lorem ipsum is placeholder text commonly used."
-  };
+
   return (
     <div className="container-xs">
       <div className="center-content">
         <Button
           color="secondary"
           aria-controls="demo-modal"
-          onClick={() => setModal(true)}
+          onClick={() => {
+            Event("CTA", "User pressed Iscrivimi!", "CTA Modal Button");
+            setModal(true);
+          }}
         >
           Iscrivimi!
         </Button>
