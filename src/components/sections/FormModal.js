@@ -28,7 +28,7 @@ export default function FormModal() {
       >
         <div className="center-content">
           <TypeForm
-            url="https://antoniomarsella95.typeform.com/to/VkEqn0"
+            url="https://hackathome.typeform.com/to/VkEqn0"
             style={{ width: "80%", height: "80%" }}
           />
         </div>

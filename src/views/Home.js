@@ -4,6 +4,7 @@ import SectionHeader from "../components/sections/partials/SectionHeader";
 // import sections
 import HeroSplit from "../components/sections/HeroSplit";
 //import Cta from "../components/sections/Cta";
+import Clients from "../components/sections/Clients";
 import FAQ from "../components/sections/FAQ";
 import GenericSection from "../components/sections/GenericSection";
 import FeaturesTiles from "../components/sections/FeaturesTiles";
@@ -33,9 +34,9 @@ class Home extends React.Component {
     return (
       <>
         <HeroSplit className="illustration-section-01" />
+
         <GenericSection className="center-content">
           <FeaturesTiles topDivider className="center-content" />
-
           <FAQ />
         </GenericSection>
 
