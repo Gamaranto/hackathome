@@ -77,7 +77,8 @@ class HeroSplit extends React.Component {
                     Hack@Home è un hackathon online in cui mettere a
                     disposizione la tua creatività e le tue abilità di problem
                     solving durante l'emergenza COVID-19. Direttamente da casa
-                    tua il 28 e 29 Marzo.
+                    tua il <span className="accent">28</span> e{" "}
+                    <span className="accent">29</span> Marzo.
                   </p>
                   <div className="reveal-from-bottom" data-reveal-delay="450">
                     <Button
