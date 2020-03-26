@@ -4,6 +4,8 @@ import Modal from "../elements/Modal";
 import Button from "../elements/Button";
 import TypeForm from "./Typeform";
 
+import { Event } from "../../tracking";
+
 export default function FormModal() {
   let [modalActive, setModal] = useState(false);
 

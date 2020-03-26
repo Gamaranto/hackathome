@@ -5,6 +5,7 @@ import Button from "../elements/Button";
 import GenericSection from "./GenericSection";
 import SectionHeader from "./partials/SectionHeader";
 import TypeForm from "./Typeform";
+import { Event } from "../../tracking";
 
 export default function FinalCTA() {
   let [modalActive, setModal] = useState(false);
