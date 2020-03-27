@@ -46,7 +46,7 @@ class Clients extends React.Component {
             I NOSTRI SPONSOR
           </div>
           <div className={innerClasses}>
-            <ul className="list-reset">
+            <ul className="list-reset center-content">
               <li className="reveal-from-top" data-reveal-delay="600">
                 <a href="https://digitalocean.com">
                   <Image
@@ -61,9 +61,30 @@ class Clients extends React.Component {
                 <a href="https://cruip.com">
                   <Image
                     src={require("./../../assets/images/cruip.svg")}
-                    alt="Digital Ocean"
+                    alt="Cruip"
                     width={90}
                     height={25}
+                  />
+                </a>
+              </li>
+
+              <li className="reveal-from-top" data-reveal-delay="600">
+                <a href="https://www.heroku.com/">
+                  <Image
+                    src={require("./../../assets/images/heroku-logo.svg")}
+                    alt="Heroku"
+                    width={90}
+                    height={25}
+                  />
+                </a>
+              </li>
+              <li className="reveal-from-top" data-reveal-delay="600">
+                <a href="https://www.italiastartup.it/">
+                  <Image
+                    src={require("./../../assets/images/italian-startup.svg")}
+                    alt="Italian Startup"
+                    width={90}
+                    height={85}
                   />
                 </a>
               </li>
