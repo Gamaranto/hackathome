@@ -77,7 +77,7 @@ export default function FAQ() {
           <AccordionItem title="Siete anche sui social?">
             Si, abbiamo un evento su{" "}
             <a
-              href="https://www.gofundme.com/hackhome-sostieni-gli-ospedali-della-lombardia"
+              href="https://www.facebook.com/events/1535209669978069/"
               className="func-link"
             >
               Facebook

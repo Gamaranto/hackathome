@@ -57,6 +57,16 @@ class Clients extends React.Component {
                   />
                 </a>
               </li>
+              <li className="reveal-from-top" data-reveal-delay="600">
+                <a href="https://cruip.com">
+                  <Image
+                    src={require("./../../assets/images/cruip.svg")}
+                    alt="Digital Ocean"
+                    width={90}
+                    height={25}
+                  />
+                </a>
+              </li>
             </ul>
           </div>
         </div>
